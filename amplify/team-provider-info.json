@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-grader-dev-cd5ce-authRole",
+      "UnauthRoleArn": "arn:aws:iam::849354442962:role/amplify-grader-dev-cd5ce-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::849354442962:role/amplify-grader-dev-cd5ce-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-grader-dev-cd5ce-deployment",
+      "UnauthRoleName": "amplify-grader-dev-cd5ce-unauthRole",
+      "StackName": "amplify-grader-dev-cd5ce",
+      "StackId": "arn:aws:cloudformation:us-east-2:849354442962:stack/amplify-grader-dev-cd5ce/4d961b00-4df3-11f0-9418-0206af1c4c33",
+      "AmplifyAppId": "d1l27e4gctimks",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-grader-dev-cd5ce-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "graderc58f78af": {}
+      },
+      "function": {
+        "graderc58f78afCustomMessage": {
+          "REDIRECTURL": "/",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-grader-dev-cd5ce-deployment",
+          "s3Key": "amplify-builds/graderc58f78afCustomMessage-76637958466966786f69-build.zip"
+        }
+      }
+    }
+  }
+}
